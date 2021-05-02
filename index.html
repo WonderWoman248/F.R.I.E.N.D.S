@@ -19,7 +19,10 @@
                     <input type="search" name="search" placeholder="search in page">
                     <input type="submit" value=">">
                 </form>
+
+                <button onclick="myfunction()">Dark Mode</button>
             </div><!--search bar-->
+            
 
              <div class="clear"></div>
 
@@ -167,6 +170,11 @@
             key.classList.add('playing');
             audio.currentTime=0;
             audio.play();
+        }
+
+        function myfunction(){
+            var element = document.body;
+            element.classList.toggle("darkMode");
         }
 
         const keys=Array.from(document.querySelectorAll('.key'));

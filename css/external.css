@@ -1,7 +1,7 @@
 body{
     margin:0 auto;
     
-    background-color:black;
+    background-color: white;
 }
 .container{
     width: 1000px;
@@ -177,6 +177,11 @@ body{
 .playing{
     transform: scale(1.1);
     border-color: teal;
+}
+
+.darkMode{
+    background-color: black;
+    color: white;
 }
 
   
